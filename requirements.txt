@@ -1,0 +1,7 @@
+paramiko~=4.0.0
+langchain-community~=0.3.23
+langchain-core~=0.3.65
+loguru~=0.7.3
+streamlit~=1.45.0
+langgraph~=0.4.8
+requests~=2.32.3

@@ -1,0 +1,9 @@
+services:
+  agent-os:
+    image: ubuntu:24.04  # 直接使用你下载好的镜像
+    container_name: agent-target-os
+    tty: true            # 开启伪终端，防止容器启动后立即退出
+    stdin_open: true     # 保持标准输入打开
+    ports:
+      - "2222:22"
+    command: /bin/bash   # 启动时运行 bash
